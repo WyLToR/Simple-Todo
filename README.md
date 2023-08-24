@@ -1,27 +1,68 @@
-# React + TypeScript + Vite
+```markdown
+# Simple Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project contains a simple Todo application built in TypeScript.
 
-Currently, two official plugins are available:
+## Installation and Running
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Make sure you have Node.js installed on your computer.
 
-## Expanding the ESLint configuration
+2. Clone this repository to your local machine:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+   ```bash
+   git clone https://github.com/your-username/simple-todo.git
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+3. Navigate to the project directory:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+   ```bash
+   cd simple-todo
+   ```
+
+4. Install the dependencies using the following command:
+
+   ```bash
+   npm install
+   ```
+
+5. Start the development environment:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open the following link in your browser: `http://localhost:3000` to see the live application.
+
+## Commands
+
+- `npm run dev`: Starts the development server for the application and watches for changes.
+- `npm run build`: Builds the project using TypeScript and creates optimized code using Vite.
+- `npm run lint`: Checks your code for syntax and style errors using ESLint.
+- `npm run preview`: Generates a preview of the built application.
+
+## Dependencies
+
+The application relies on the following dependencies:
+
+- `bootstrap`: The Bootstrap framework for UI elements.
+- `react` and `react-dom`: The React framework for building user interfaces.
+- `react-bootstrap`: Bootstrap components for React applications.
+- `react-icons`: Icons and icon sets for React applications.
+- `react-toastify`: Displaying notifications in React applications.
+
+## Developer Dependencies
+
+During development, you will use the following developer dependencies:
+
+- `@types/react` and `@types/react-dom`: TypeScript type definitions for React and React DOM.
+- `@typescript-eslint/eslint-plugin` and `@typescript-eslint/parser`: Checking and linting TypeScript code.
+- `@vitejs/plugin-react`: Vite build system support for React.
+- `eslint`, `eslint-plugin-react-hooks`, and `eslint-plugin-react-refresh`: Code style and quality checks using ESLint.
+- `typescript`: TypeScript programming language and environment.
+- `vite`: Developer server for the application and rapid building.
+
+---
+
+Best regards,
+WyLToR
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
