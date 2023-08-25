@@ -10,7 +10,7 @@ This project contains a simple Todo application built in TypeScript.
 2. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/simple-todo.git
+   git clone https://github.com/WyLToR/simple-todo.git
    ```
 
 3. Navigate to the project directory:
@@ -31,7 +31,7 @@ This project contains a simple Todo application built in TypeScript.
    npm run dev
    ```
 
-6. Open the following link in your browser: `http://localhost:3000` to see the live application.
+6. Open the following link in your browser: `http://localhost:5173` to see the live application.
 
 ## Commands
 
